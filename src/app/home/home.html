@@ -1,0 +1,11 @@
+<p>home works</p>
+<app-greeter
+[price]="home_price()"
+[text]="home_text()"
+[greet]="salute()"
+/>
+
+<button (click)="updateGreeting()">Update Greeting</button>
+<button (click)="updatePrice()">Update Price</button>
+<app-counter/>
+<input placeholder="Let's Chat" type="text" />
